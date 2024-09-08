@@ -1,0 +1,12 @@
+import os
+
+# Define the directory path
+data_dir = "data/resumes"
+
+# Check if the directory exists
+if not os.path.exists(data_dir):
+    # Create the directory and any missing subdirectories
+    os.makedirs(data_dir, exist_ok=True)
+
+# Now you can call `load_text_from_file` with the correct path
+# ...

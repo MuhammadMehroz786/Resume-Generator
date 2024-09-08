@@ -1,0 +1,22 @@
+.env
+config/
+data/
+docs/
+myenv/
+tests/
+venv/
+
+# Ignore everything in the ui directory
+ui/*
+# Ignore everything in the layouts folder
+layouts/*
+
+visualization/*
+
+app_resume_improver.py
+app_resume_keyword_matcher.py
+app_resume_reformater.py
+app_resume_to_job_scorer.py
+app.py
+.gitattributes
+
